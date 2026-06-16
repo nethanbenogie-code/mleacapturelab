@@ -1,0 +1,121 @@
+{
+  "products": [
+    {
+      "sku": "SKU001",
+      "name": "Product A",
+      "price": 29.99,
+      "stock": 50,
+      "category": "Electronics",
+      "active": true,
+      "barcode": "123456789",
+      "id": 1
+    },
+    {
+      "sku": "SKU002",
+      "name": "Product B",
+      "price": 49.99,
+      "stock": 5,
+      "category": "Clothing",
+      "active": true,
+      "barcode": "987654321",
+      "id": 2
+    },
+    {
+      "sku": "SKU003",
+      "name": "Product C",
+      "price": 19.99,
+      "stock": 0,
+      "category": "Food",
+      "active": false,
+      "barcode": "456789123",
+      "id": 3
+    },
+    {
+      "sku": "SKU004",
+      "name": "Product D",
+      "price": 99.99,
+      "stock": 20,
+      "category": "Electronics",
+      "active": true,
+      "barcode": "789123456",
+      "id": 4
+    }
+  ],
+  "sales": [],
+  "saleItems": [],
+  "suppliers": [
+    {
+      "name": "TechSupply Co.",
+      "phone": "555-0100",
+      "email": "sales@techsupply.com",
+      "address": "123 Tech St",
+      "id": 1,
+      "createdAt": "2026-05-20T01:30:44.470Z"
+    },
+    {
+      "name": "GlobalParts Inc.",
+      "phone": "555-0200",
+      "email": "info@globalparts.com",
+      "address": "456 Industry Ave",
+      "id": 2,
+      "createdAt": "2026-05-20T01:30:44.470Z"
+    }
+  ],
+  "purchaseOrders": [],
+  "expenses": [
+    {
+      "type": "Rent",
+      "amount": 2000,
+      "date": "2024-01-01",
+      "category": "Fixed",
+      "id": 1,
+      "createdAt": "2026-05-20T01:30:44.470Z"
+    },
+    {
+      "type": "Electricity",
+      "amount": 350,
+      "date": "2024-01-15",
+      "category": "Utilities",
+      "id": 2,
+      "createdAt": "2026-05-20T01:30:44.470Z"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Admin User",
+      "role": "admin",
+      "active": true,
+      "pin": "1234"
+    },
+    {
+      "id": 2,
+      "name": "Manager",
+      "role": "manager",
+      "active": true,
+      "pin": "5678"
+    },
+    {
+      "id": 3,
+      "name": "Cashier",
+      "role": "cashier",
+      "active": true,
+      "pin": "9012"
+    }
+  ],
+  "settings": [
+    {
+      "key": "currency",
+      "value": "PHP",
+      "id": 1,
+      "createdAt": "2026-05-20T01:31:10.125Z"
+    },
+    {
+      "key": "receiptFooter",
+      "value": "Thank you for your business!",
+      "id": 2,
+      "createdAt": "2026-05-20T01:31:17.896Z"
+    }
+  ],
+  "inventoryLogs": []
+}
